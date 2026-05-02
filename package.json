@@ -1,0 +1,18 @@
+{
+  "name": "purvis-v11-launch",
+  "version": "11.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^4.28.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
